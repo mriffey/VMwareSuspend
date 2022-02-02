@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Clarion 2.1.0.2447
 Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "SuspendVM", "SuspendVM.cwproj", "{AB4DA11B-AB86-4E47-ADFD-687CA71FADAA}"
 EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "SuspendVMSvc", "SuspendVMSvc.cwproj", "{634C9212-1023-4666-90AE-9F3B9FED089A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{{2150E333-8FDC-42A3-9474-1A3956D46DE8}}"
+	ProjectSection(SolutionItems) = postProject
+		SuspendVMSvc.app = SuspendVMSvc.app
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -14,5 +21,13 @@ Global
 		{AB4DA11B-AB86-4E47-ADFD-687CA71FADAA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{AB4DA11B-AB86-4E47-ADFD-687CA71FADAA}.Release|Win32.Build.0 = Release|Win32
 		{AB4DA11B-AB86-4E47-ADFD-687CA71FADAA}.Release|Win32.ActiveCfg = Release|Win32
+		{7E504C00-AE89-41CB-A868-6502F608CB3F}.Debug|Win32.Build.0 = Debug|Win32
+		{7E504C00-AE89-41CB-A868-6502F608CB3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E504C00-AE89-41CB-A868-6502F608CB3F}.Release|Win32.Build.0 = Release|Win32
+		{7E504C00-AE89-41CB-A868-6502F608CB3F}.Release|Win32.ActiveCfg = Release|Win32
+		{634C9212-1023-4666-90AE-9F3B9FED089A}.Debug|Win32.Build.0 = Debug|Win32
+		{634C9212-1023-4666-90AE-9F3B9FED089A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{634C9212-1023-4666-90AE-9F3B9FED089A}.Release|Win32.Build.0 = Release|Win32
+		{634C9212-1023-4666-90AE-9F3B9FED089A}.Release|Win32.ActiveCfg = Release|Win32
 	EndGlobalSection
 EndGlobal

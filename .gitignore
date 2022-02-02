@@ -1,0 +1,8 @@
+
+clw/*
+obj/*
+*.bpp
+*.bct
+*.exp
+*.lib
+map/*

@@ -1,6 +1,8 @@
 
   PROGRAM
 
+  INCLUDE('stringtheory.inc'),ONCE 
+  
   MAP
     MODULE('win32')
        VMSleep(LONG pMilliseconds),PASCAL,NAME('Sleep')
@@ -9,13 +11,19 @@
   END
   
 csLog  CSTRING(200)
+oST  StringTheory 
 
   CODE
   
-  RUN('C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "& ""c:\dl\VMSuspend.ps1"""') 
+  oST.SetValue('stop the VM')
+  oST.SaveFile('C:\dl\SuspendVM.txt')
+  
   csLog = 'Waiting for VM to sleep<00>'
   VMODS(csLog)  
-  VMSleep(30000) 
+  
+  csLog = 'Waiting 60 seconds for VM to sleep<00>'
+  VMODS(csLog)  
+  VMSleep(60000) 
   csLog = 'Sleep finished<00>'
   VMODS(csLog)  
   RETURN 
